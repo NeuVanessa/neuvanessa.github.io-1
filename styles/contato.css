@@ -1,0 +1,66 @@
+
+.form-control:focus {
+	border-color: #ff06c1;
+	outline: 0;
+	-webkit-box-shadow: none;
+			box-shadow: none;
+  }
+
+.area-contato{
+	border-radius: 20px; 
+	box-shadow: 2px 2px 4px 4px #ff06c1;
+	font-weight: bold;
+	color:#ff06c1;
+	font-size: 20px;
+	background-color: white;
+
+
+}
+
+.area-contato form button{
+	width: 150px;
+	background-color: #ff06c1;
+	color: white;
+	border-radius: 15px;
+	font-weight: bold;
+	border: 1px solid #6a0c52;
+
+}
+
+.area-contato form button:hover{
+	background-color: #6a0c52;
+	opacity: 0.8;
+	color: white;
+border: 1px solid #6a0c52;
+
+}
+
+
+
+@media (max-width: 575.98px){
+	.row-contato {
+		background-position:initial;
+	
+	}
+
+	.area-contato{
+		font-size: 15px;
+	}
+
+	.area-contato form button{
+		width: 100px;
+		
+	}
+}
+
+
+@media (min-width: 576px) and (max-width: 992px){  
+   .area-contato{
+		font-size: 18px;
+	}
+
+	.area-contato form button{
+		width: 130px;
+	
+	}
+}
